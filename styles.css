@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Karla:wght@200..800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color:  	#89A7A9;
+}
+
+.container{
+    width: 550px;
+    height: 550px;
+    background-color: #1F2937;
+    padding-left: 52px;
+    box-sizing: border-box;
+    margin: auto;
+    
+}
+
+h1{
+    width: 354px;
+    height: 80px;
+    color: white;
+    padding-top: 115px;
+    padding-right: 144px;
+    font-family: 'karla', sans-serif;
+    font-weight: bolder;
+    font-size: 40px;
+    line-height: 40px;
+}
+
+.color-change{
+    color: #10B981;
+}
+
+p{
+    color: white;
+    padding-top: 10px;
+    font-family: 'Inter', serif;
+    font-size: 20px;
+}
+
+#password-length{
+    margin-top: 7px;
+    width: 130px;
+    height: 20px;
+    border-radius: 3px;
+    border: 1px solid white;
+}
+
+.click-btn{
+    display: flex;
+    margin-top: 51px;
+}
+
+.generate-password{
+    width: 191px;
+    height: 42px;
+    background-color: #10B981;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-family: 'Inter', serif;
+    font-size: 16px;
+    padding: 9px 17px 9px 15px;
+}
+
+.toggle{
+    width: 191px;
+    height: 42px;
+    margin-left: 64px;
+    background-color: #10B981;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+hr{
+    width: 446px;  
+    margin-top: 39px;
+    border: 1px solid #2F3E53;
+}
+
+.password-btn{
+    margin-top: 35px;
+}
+
+.password{
+    width: 211px;
+    height: 39px;
+    background-color: #273549;
+    border: none;
+    border-radius: 6px;
+    margin-right: 24px;
+    color: #55F991;
+}
+
+
